@@ -1,0 +1,45 @@
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    justify-content: center;
+}
+
+span {
+    margin: 20px;
+}
+header{
+    background-color: black;
+    color: yellow;
+    padding: 1rem;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: yellow;
+    padding: 1rem;
+    text-align: center;
+}
+.order-button{
+    width: 100%;
+    background-color: beige;
+    text-align: center;
+    padding: 1.2rem;
+}
+.button{
+    width: 18%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: blue;
+    border: none;
+    border-radius: 34px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: #9b7000;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+    color: #CCCCCC;
+    cursor: pointer;
+}
